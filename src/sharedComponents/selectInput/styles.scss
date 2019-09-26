@@ -1,0 +1,57 @@
+@import '~src/app/variables';
+
+:global{
+  .Select-control {
+    border-radius: 0;
+    border: none;
+      height: 40px;
+  }
+
+  .Select-placeholder, .Select-value {
+    display: flex;
+    align-items: center;
+    max-width: calc(100% - 35px) !important;
+    padding-right: 0 !important;
+  }
+
+  .Select-placeholder {
+    color: $primaryHover;
+    font-size: 14px;
+  }
+
+  .Select-value-label {
+    color: $primaryHover !important;
+  }
+
+  .Select {
+    z-index: 3;
+  }
+
+  .Select.is-open {
+    z-index: 999;
+  }
+}
+
+.quickTrade {
+  :global {
+    .Select-control {
+      background-color: transparent;
+    }
+
+    .Select-value-label, .Select-clear, .Select-placeholder {
+      color: white !important;
+    }
+
+    .Select-arrow {
+      border-color: white transparent transparent;
+    }
+  }
+}
+
+.monthSelectorFix {
+  :global {
+    .Select-placeholder {
+      color: $primary;
+    }
+  }
+}

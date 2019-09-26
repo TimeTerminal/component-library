@@ -1,0 +1,9 @@
+@import '~src/app/variables';
+
+.dateSelector {
+  width: 100%;
+}
+
+.dateSelectorSelect > * {
+  z-index: 100;
+}

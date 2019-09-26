@@ -1,0 +1,52 @@
+@import '~src/app/variables';
+
+.error {
+  color: $error;
+}
+
+.input:not([type='checkbox']) {
+  width: 90%;
+  height: 40px;
+  padding: 0 0 0 5px;
+  border: solid 1px $background-dropdown;
+  color: $primaryHover;
+  font-size: 14px;
+}
+
+.input[type='textarea'] {
+  height: auto;
+}
+
+.innerContainer {
+  width: 100%;
+  position: relative;
+
+  .fontAwesome {
+    color: #888;
+    position: absolute;
+    right: 5%;
+    top: 25%;
+  }
+}
+
+.validationMessages {
+  height: 0.8em;
+  font-size: 0.85em;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.formField {
+  position: relative;
+
+  &.noPadding {
+    padding: 0;
+  }
+}
+
+.inputLine {
+  background-color: $primary !important;
+  border: 1px solid $primary !important;
+  border-bottom: 1px solid white !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+}

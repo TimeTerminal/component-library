@@ -1,0 +1,37 @@
+@import '~src/app/variables';
+
+.input {
+  display: none;
+}
+
+.label {
+  width: 100%;
+  height: 36px;
+  border: 1px solid #eee;
+  padding: 0px 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  line-height: 36px;
+  font-size: 0.9em;
+  cursor: pointer;
+
+  &.disabled {
+    background-color: #f9f9f9;
+    cursor: default;
+  }
+
+  span {
+    display: block;
+    text-align: left;
+  }
+
+  .fileName {
+    color: $input-text-color;
+  }
+
+  .labelText {
+    color: $input-label-color;
+  }
+}

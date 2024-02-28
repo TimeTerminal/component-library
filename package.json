@@ -40,7 +40,7 @@
     "history": "4.7.2",
     "immer": "~1.8.0",
     "lodash": "4.17.19",
-    "moment": "2.22.2",
+    "moment": "2.29.4",
     "prop-types": "~15.6.2",
     "react": "~16.6.3",
     "react-bootstrap-table": "4.3.1",
